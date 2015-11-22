@@ -83,7 +83,7 @@ background-color: rgba(1,1,2,0.5);
   color:white;
 }
 
-.active > a{
+.navbar-default .navbar-nav > .active > a{
   background-color:#fff055;
 }
 
