@@ -1,0 +1,90 @@
+body{
+  background: url("../img/background-image.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+header{
+  background-color: rgba(1,1,2,0.5);
+}
+.banner{
+  background-color: #191919;
+  padding:0.5em 0;
+  color: white;
+}
+.banner img{
+  margin:0.2em 0;
+  width:50%
+}
+
+ul.social-icons{
+  list-style: none;
+  display: flex;
+  float:right;
+}
+
+.social-icons li{
+  display: inline-block;
+  width:60px;
+  text-align: center;
+  padding:1em;
+  margin:0 1em;
+  margin-top: 1em;
+  border-radius: 50%;
+  background-color: #ff5177;
+ 
+}
+
+
+
+
+.navbar-default{
+  background-color:#191920;
+  margin:0;
+  border:none;
+  border-radius:0;
+}
+
+.navbar{
+  width:50%;
+  margin:auto;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.navbar ul li{
+  font-weight:bold;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.jumbotron{
+   background-color: rgba(1,1,2,0.5);
+}
+
+.jumbotron h1{
+  width:100%;
+  padding:1em;
+background-color: rgba(1,1,2,0.5);
+  color:whitesmoke;
+}
+
+.jumbotron p{
+  color:white;
+}
+
+.active > a{
+  background-color:#fff055;
+}
+
+
