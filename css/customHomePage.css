@@ -7,7 +7,7 @@ body{
   
 }
 header{
-  background-color: rgba(1,1,2,0.5);
+  background-color: rgba(200,200,200,0.7);
 }
 .banner{
   background-color: #191919;
@@ -69,22 +69,63 @@ ul.social-icons{
 }
 
 .jumbotron{
-   background-color: rgba(1,1,2,0.5);
+   background-color: rgba(200,200,200,0.7);
+   display: flex; 
+   margin-bottom:0;
+  
+  
 }
 
 .jumbotron h1{
-  width:100%;
+  margin:auto;
+  text-align:center;
+  width:80%;
   padding:1em;
-background-color: rgba(1,1,2,0.5);
+background-color: rgba(0,0,1,0.6);
   color:whitesmoke;
+  font-size:3em;
+  font-weight: bold;
 }
 
 .jumbotron p{
-  color:white;
+  width:80%;
+  padding:1em;
+  background-color:  rgba(250,250,250,0.6);
+  font-weight: bold;
+  margin:auto;
+}
+
+.jumbotron > .container{
+  margin:1em;
+  padding:2em;
 }
 
 .navbar-default .navbar-nav > .active > a{
   background-color:#fff055;
+}
+
+
+
+
+p .btn-primary{
+  background-color: #191920;
+  border-radius: 0;
+  border-color:whitesmoke;
+}
+
+.technologies{
+  background-color: rgba(0,0,1,0.8);
+  display:flex;
+  flex-wrap:nowrap;
+  justify-content:space-around;
+  padding:0.5em;
+}
+
+.technologies strong{
+  text-transform: uppercase;
+  padding:1em;
+  color: whitesmoke;
+  font-weight:bold;
 }
 
 
