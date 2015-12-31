@@ -49,8 +49,9 @@ ul.social-icons{
 }
 
 .navbar ul li{
-  font-weight:bold;
+  font-weight:normal;
   font-family: 'Oswald', sans-serif;
+  font-size:2em;
 }
 
 a.navbar-brand{
